@@ -1,6 +1,6 @@
 header {
   background-color: seagreen;
-
+  font-size: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,4 +27,9 @@ header > nav {
     width: 100px;
     margin: 15px;
   }
+}
+
+.tabs {
+  padding: 15px;
+  background-color: lightgray;
 }
