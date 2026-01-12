@@ -1,0 +1,35 @@
+header {
+  background-color: seagreen;
+  font-size: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+header > nav {
+  margin: 10px;
+}
+
+@media (max-width: 350px) {
+  header > nav {
+    display: none;
+  }
+  #hamburger-button {
+    display: initial;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+  }
+}
+
+.tabs {
+  padding: 15px;
+  background-color: lightgray;
+}
